@@ -7,12 +7,12 @@ console.log(prezzoBiglietto)
 
 if(eta < 18){
 
-    let sconto20 = prezzoBiglietto / 100 * 20;
+    const sconto20 = prezzoBiglietto / 100 * 20;
     alert("Il prezzo del tuo biglietto è " + ((prezzoBiglietto - sconto20) * 100 / 100).toFixed(2));
 
 } else if (eta >=65) {
 
-    let sconto40 = prezzoBiglietto / 100 * 40;
+    const sconto40 = prezzoBiglietto / 100 * 40;
     alert("Il prezzo del tuo biglietto è " + ((prezzoBiglietto - sconto40) * 100 / 100).toFixed(2));
     
 } else {
